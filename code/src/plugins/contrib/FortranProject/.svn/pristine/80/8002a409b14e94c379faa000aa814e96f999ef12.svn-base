@@ -1,0 +1,22 @@
+#! /bin/sh
+#
+
+mkdir -p ../../../devel30/share/codeblocks/images/fortranproject > /dev/null 2> /dev/null
+mkdir -p ../../../devel30/share/codeblocks/images/fortranproject/16x16 > /dev/null 2> /dev/null
+mkdir -p ../../../devel30/share/codeblocks/images/fortranproject/22x22 > /dev/null 2> /dev/null
+mkdir -p ../../../devel30/share/codeblocks/images/fortranproject/32x32 > /dev/null 2> /dev/null
+mkdir -p ../../../output30/share/codeblocks/images/fortranproject > /dev/null 2> /dev/null
+mkdir -p ../../../output30/share/codeblocks/images/fortranproject/16x16 > /dev/null 2> /dev/null
+mkdir -p ../../../output30/share/codeblocks/images/fortranproject/22x22 > /dev/null 2> /dev/null
+mkdir -p ../../../output30/share/codeblocks/images/fortranproject/32x32 > /dev/null 2> /dev/null
+cp ./images/fortranproject/*.* ../../../devel30/share/codeblocks/images/fortranproject/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/16x16/*.* ../../../devel30/share/codeblocks/images/fortranproject/16x16/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/22x22/*.* ../../../devel30/share/codeblocks/images/fortranproject/22x22/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/32x32/*.* ../../../devel30/share/codeblocks/images/fortranproject/32x32/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/*.* ../../../output30/share/codeblocks/images/fortranproject/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/16x16/*.* ../../../output30/share/codeblocks/images/fortranproject/16x16/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/22x22/*.* ../../../output30/share/codeblocks/images/fortranproject/22x22/ > /dev/null 2> /dev/null
+cp ./images/fortranproject/32x32/*.* ../../../output30/share/codeblocks/images/fortranproject/32x32/ > /dev/null 2> /dev/null
+exit 0
+
+
